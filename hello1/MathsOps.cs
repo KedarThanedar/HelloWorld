@@ -10,6 +10,15 @@ namespace hello1
     {
         int a;
         int b;
+        public MathsOps(int x,int y)
+        {
+                a=x;    
+                b=y;
+        }
+        public MathsOps()
+        {
+
+        }
         public static int add(int a, int b)
         { 
             return a + b;        

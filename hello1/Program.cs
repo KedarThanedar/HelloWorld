@@ -1,8 +1,10 @@
 ﻿using hello1;
 using System;
 
-Console.WriteLine("hello world");
 
+Console.BackgroundColor = ConsoleColor.Green;
+Console.WriteLine("hello world");
+Console.Beep();
 
 Console.WriteLine(MathsOps.add(100,99)+"=is sum of 100 and 99");
 MathsOps math = new MathsOps();
